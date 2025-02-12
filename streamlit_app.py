@@ -70,7 +70,7 @@ fig = px.choropleth_mapbox(
     hover_data={"Conceito": True},
     # Faz com que NaN seja plotado em preto
     # (funciona a partir de plotly.express 4.11+)
-    color_continuous_na_color="black",
+    # color_continuous_na_color="black",
 )
 
 fig.update_layout(
